@@ -1,7 +1,7 @@
 import random
 import pygame
 from pygame.sprite import Sprite
-from game.components.bullets import bullet_manager
+
 
 from game.utils.constants import ENEMY_1, ENEMY_TYPE, SCREEN_HEIGHT, SCREEN_WIDTH
 
