@@ -11,7 +11,7 @@ class Menu:
         self.font = pygame.font.Font(FONT_STYLE, 30)
         self.icon = pygame.transform.scale(ICON, (120, 80))
         self.icon_rect  = self.icon.get_rect()
-        self.icon_rect_center = (self.HALF_SCREEN_WIDHT, self.HALF_SCREEN_WIDHT - 100)
+        self.icon_rect.center = (self.HALF_SCREEN_WIDHT, self.HALF_SCREEN_WIDHT - 100)
         self.update_message(message)
 
     def events(self, on_close, on_start):
